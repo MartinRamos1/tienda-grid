@@ -53,6 +53,7 @@ span {
     color: #CC3F0C;
 }
 
+
 .logo {
     display: none;
 }
@@ -81,7 +82,16 @@ footer {
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+    transition: 0.3s;
+    
 }
+
+.item:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    
+}
+
 
 .item__img {
     width: 300px
