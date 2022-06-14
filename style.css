@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
-    
+    background-color: #fafafaea;
+
 }
 
 
@@ -14,12 +16,13 @@
 body {
     background-color: #fafafaea;
     font-size: 1em;
+
 }
 
 ul {
     display: flex;
-    
-    
+
+
 }
 
 li {
@@ -29,8 +32,8 @@ li {
     margin: 10px 120px 0px 80px;
     transition: 0.3s;
 }
-    
-    
+
+
 
 li:hover {
     color: #cdb4db;
@@ -41,10 +44,17 @@ li:hover {
 a {
     text-decoration: none;
     color: #232C33;
-    
-    
+
+
 }
 
+
+.carrousel-img {
+    height: 700px;
+
+
+
+}
 
 
 
@@ -53,26 +63,20 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    
+
 }
 
-span {
+/* span {
     color: #CC3F0C;
 }
 
 span:hover {
     color: #cdb4db;
-}
+} */
 
 
 
 
-
-footer {
-    margin-top: 20px;
-    text-align: center;
-    
-}
 
 
 
@@ -80,7 +84,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  
+
 }
 
 .item {
@@ -90,13 +94,13 @@ footer {
     text-align: center;
     border-radius: 5px;
     transition: 0.3s;
-    
+
 }
 
 .item:hover {
     transform: scale(1.3);
     transition: 0.3s;
-    
+
 }
 
 .card {
@@ -131,182 +135,73 @@ footer {
     font-size: 25px;
     color: #CC3F0C;
     font-weight: bold;
-    
+
 }
 
 .item__btn:hover {
     color: #cc3f0ccc;
-} 
-
-/* .container > * {
-    padding: 20px;
-    border: 1px solid 
-} */
-
-/* .header {
-    grid-area: header;
-    padding: 20px;
 }
 
-.content {
-    grid-area: content;
+.width80 {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 
 
-.footer {
-    grid-area: footer;
-    padding: 20px;
+/* PRODUCTO */
+
+.product__img {
+    margin-top: 50px;
 }
 
-.container {
-    display: grid;
-    grid-gap: 10px;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr;
-    grid-template-areas:
-        "header"
-        "content"
-        "footer"                    ;
-} */
+.cardTittleProduct {
+    font-size: 50px;
+}
 
-/* @media (min-width: 1173px) {
-    .item__container {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .item__nombre {
-        font-size: 30px;
-    }
-    .item__precio {
-        font-size: 30px;    
-    }
-    .item__btn {
-        font-size: 18px;
-    }
+.card-price {
+    font-size: 35px;
+    margin: 15px 0 15px 0;
 
-    .item__img {
-        width: 240px
-    }
+}
 
-    .logo {
-        display: block;
-    }
-   
-} */
+.card-text {
+    font-size: 18px;
 
- /* PRODUCTO */
+}
+
+.radio__button {
+    margin: 10px;
+}
 
 
-     .product {
-        display: flex;
-       
-       
-    } 
+/* EXTRA */
 
-    .header-product {
-        padding: 20px;
-    }
-     
-    .product__img {
-        height: 700px;
-        margin: 80px 0 80px 0;
-        
-    }
-    
-    
-    .product__talle {
-        font-size: 40px;
-        padding: 15px;
-        margin: 5px;
-     
-    }
-    
-    
-    
-    .product__descripcion {
-        text-align: center;
-        margin: 300px 200px 0px 200px;
-        height: 300px;
-    
-       
-        
-    }
-    
-    .product__titulo {
-        font-size: 30px;
-        font-weight: 500;
-        
-        
-    }
-    
-    .product__precio {
-        font-size: 50px;
-        font-weight: bold;
-        margin-top: 30px;
-    }
-    
-    .product__texto {
-        margin: 30px 20px 50px 20px;
-    }
-    
-    .product__btn {
-        font-size: 30px;
-        text-align: center;
-        padding: 5px;
-        
-        
-    } 
 
-    .footer-product {
-        padding: 15px;
-    }
 
-  @media (max-width: 1000px) {
+.banner-img {
+    max-width: 100%;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+    opacity: 0.8;
 
-      .product {
-          flex-direction: column;
-      }
-      
-      .product__descripcion {
-          margin: 0;
-         
-      }
 
-    .product__precio {
-        font-size: 50px;
-    }
-    
-    .product__titulo {
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-    
+}
 
-    
-    .product__texto {
+.banner-container {
+    margin: 0;
+    padding: 0;
+}
 
-        display: none;
-    }
+.aboutUsImg {
+    height: 100px;
+    width: 100px;
+}
 
-    
-    .product__btn {
-        font-size: 30px;
-    } 
+.aboutUsImgSecure {
+    height: 100px;
+    width: 90px;
 
-      .product__img {
-        height: 700px;
-        width: 700px;
-        margin: 0;
-        
-    }
-
-    .footer-product {
-        display: none;
-    }
-
-    
-
-    }
-    
-  
+}
