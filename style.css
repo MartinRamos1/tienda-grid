@@ -133,13 +133,14 @@ span:hover {
 
 .item__btn {
     font-size: 25px;
-    color: #CC3F0C;
-    font-weight: bold;
+    
 
 }
 
 .item__btn:hover {
-    color: #cc3f0ccc;
+    font-weight: bold;
+    
+    
 }
 
 .width80 {
@@ -179,7 +180,6 @@ span:hover {
 /* EXTRA */
 
 
-
 .banner-img {
     max-width: 100%;
     max-height: 600px;
@@ -203,5 +203,14 @@ span:hover {
 .aboutUsImgSecure {
     height: 100px;
     width: 90px;
+
+}
+
+@media (max-width: 767px) {
+    .footer-social li{
+        margin: 20px;
+        
+    }
+
 
 }
