@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/index.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/shirts.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/hoodies.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/jeans.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/about.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/workwithus.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://martinramos1.github.io/tienda-grid/pages/producto.html</loc>
+  <lastmod>2022-06-21T19:20:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

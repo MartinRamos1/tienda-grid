@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import "colors";
 
-
-$color-primary: #fafafaea;
-$color-secundary: #CC3F0C;
-$color-hover: #cdb4db;
-$color-dark: #232C33;
 
 * {
   margin: 0;
@@ -15,6 +11,10 @@ $color-dark: #232C33;
   background-color: $color-primary;
   color: $color-dark;
 
+}
+
+body {
+  background-color: $color-primary;
 }
 
 
@@ -31,23 +31,21 @@ ul {
     a:hover {
       color: $color-hover;
     }
-    
-  }
 
-  li:hover {
-    transform: scale(1.3);
-    transition: 0.3s;
-    
+    &:hover {
+      transform: scale(1.3);
+      transition: 0.3s;
+
+    }
+
   }
 
 }
-
 
 a {
   text-decoration: none;
   color: $color-dark;
 }
-
 
 .carrousel-img {
   height: 700px;
@@ -82,26 +80,27 @@ h1 {
   margin: 10px;
   transition: 0.3s;
   border: none;
-  
+
+  &:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+  }
+
   p {
     font-weight: 300;
   }
 }
 
-.card-hover:hover {
-  transform: scale(1.06);
-  transition: 0.3s;
-}
+
 
 
 .item__btn {
   font-size: 25px;
 
-}
+  &:hover {
+    font-weight: bold;
 
-.item__btn:hover {
-  font-weight: bold;
-
+  }
 
 }
 
@@ -142,28 +141,32 @@ h1 {
 /* EXTRA */
 
 
-.banner-img {
-  max-width: 100%;
-  max-height: 600px;
-  height: auto;
-  width: auto;
-  opacity: 0.8;
 
-
-}
 
 .banner-container {
   margin: 0;
   padding: 0;
+
+  img {
+    max-width: 100%;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+    opacity: 0.8;
+
+  }
+
+
 }
 
 .aboutUsImg {
   height: 100px;
   width: 100px;
+
 }
 
 .aboutUsImgSecure {
-  height: 100px;
+  @extend .aboutUsImg;
   width: 90px;
 
 }
@@ -176,3 +179,14 @@ h1 {
 
 
 }
+
+@mixin subrayar($color, $style) {
+  text-decoration: underline;
+  text-decoration-color: $color;
+  text-decoration-style: $style;
+}
+
+footer div a {
+  @include subrayar($color-hover, wavy )
+}
+
