@@ -1,0 +1,11 @@
+.aboutUsImg {
+  height: 100px;
+  width: 100px;
+
+}
+
+.aboutUsImgSecure {
+  @extend .aboutUsImg;
+  width: 90px;
+
+}
